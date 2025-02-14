@@ -4,7 +4,7 @@ import "testing"
 
 func TestHello(t *testing.T) {
 	t.Run("saying hello to people", func(t *testing.T) {
-		got := Hello("Pratham", "")
+		got := Hello("Pratham", "English")
 		want := "Hello, Pratham"
 		assertCorrectMessage(t, got, want)
 	})
